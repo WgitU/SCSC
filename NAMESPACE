@@ -1,0 +1,4 @@
+useDynLib(SCSC, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+importFrom("stats", "kmeans", "median", "quantile", "rbeta", "rnorm")
+export(SCSC)
