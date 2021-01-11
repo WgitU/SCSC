@@ -7,7 +7,7 @@ For technical details, please refer to the arxiv paper: Qiuyu Wu, and Xiangyu Lu
 
 1. R version >= 3.6.
 2. R packages: Rcpp (>= 1.0.3), RcppArmadillo (>= 0.9.800.1).
-3. Install the package SCSCwin.
+3. Install the package SCSC.
 ```
 devtools::install_github("WgitU/SCSC")
 ```
