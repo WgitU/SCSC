@@ -1,7 +1,9 @@
 ## SCSC: simultaneous Subject and Cell clustering for Single Cell expression count data
 This R package aims at the implementation of a nonparametric Bayesian model named SCSC for simultaneous subject subgroup discovery and cell type detection based on the scRNA-seq data from multiple subjects. SCSC does not need to prespecify the exact subject subgroup number or cell type number but only their upper bounds, and automatically induces subject subgroup structures and matches cell types across subjects. SCSC is directly applied to the scRNA-seq raw count data owing to its consideration of the data's dropouts, library sizes and over-dispersion. In this package, a blocked Gibbs sampler is carried out for Bayesian posterior inference of SCSC.
 
-For technical details, please refer to the arxiv paper: Qiuyu Wu, and Xiangyu Luo. "A nonparametric Bayesian approach to simultaneous subject and cell heterogeneity discovery for single cell RNA-seq data." arXiv:1912.08050  <https://arxiv.org/abs/1912.08050>.
+For technical details, please refer to the arxiv paper: Qiuyu Wu, and Xiangyu Luo. "A nonparametric Bayesian approach to simultaneous subject and cell heterogeneity discovery for single cell RNA-seq data." arXiv:1912.08050  <https://arxiv.org/abs/1912.08050>. 
+
+The code that can reproduce results in the paper can be downloaded through https://drive.google.com/file/d/1KPeRsVsx8A_X-IF-mc11oLLW5_sh62Cv/view?usp=sharing.
 
 ## Prerequisites and Installation
 
@@ -63,6 +65,7 @@ library(SCSC)
 example(SCSC)
 ```
 ## Remarks
-* This package applies openmp to parallel computing, which may be not supported by MacOS.
+* This package applies openmp to parallel computing. 
+* This package can be downloaded and run in Windows and Linux. However, as Mac OS does not support openmp, the package temporarily does not support Mac OS.
 * If you have any questions regarding this package, please contact Qiuyu Wu at w.qy@ruc.edu.cn.
 
