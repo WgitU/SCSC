@@ -1,7 +1,7 @@
 ## SCSC: simultaneous Subject and Cell clustering for Single Cell expression count data
 This R package aims at the implementation of a nonparametric Bayesian model named SCSC for simultaneous subject subgroup discovery and cell type detection based on the scRNA-seq data from multiple subjects. SCSC does not need to prespecify the exact subject subgroup number or cell type number but only their upper bounds, and automatically induces subject subgroup structures and matches cell types across subjects. SCSC is directly applied to the scRNA-seq raw count data owing to its consideration of the data's dropouts, library sizes and over-dispersion. In this package, a blocked Gibbs sampler is carried out for Bayesian posterior inference of SCSC.
 
-For technical details, please refer to the arxiv paper: Qiuyu Wu, and Xiangyu Luo. "onparametric Bayesian Two-Level Clustering for Subject-Level Single-Cell Expression Data." arXiv:1912.08050  <https://arxiv.org/abs/1912.08050>. 
+For technical details, please refer to the arxiv paper: Qiuyu Wu, and Xiangyu Luo. "Nonparametric Bayesian Two-Level Clustering for Subject-Level Single-Cell Expression Data." arXiv:1912.08050  <https://arxiv.org/abs/1912.08050>. 
 
 The code that can reproduce results in the paper can be downloaded through https://drive.google.com/file/d/1uyrsHYXcJ2HJdDjXuM8RzP5Sb7n04u5y/view?usp=sharing.
 
