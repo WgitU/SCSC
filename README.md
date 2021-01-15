@@ -3,7 +3,7 @@ This R package aims at the implementation of a nonparametric Bayesian model name
 
 For technical details, please refer to the arxiv paper: Qiuyu Wu, and Xiangyu Luo. "A nonparametric Bayesian approach to simultaneous subject and cell heterogeneity discovery for single cell RNA-seq data." arXiv:1912.08050  <https://arxiv.org/abs/1912.08050>. 
 
-The code that can reproduce results in the paper can be downloaded through https://drive.google.com/file/d/1uyrsHYXcJ2HJdDjXuM8RzP5Sb7n04u5y/view?usp=sharing.
+The code that can reproduce results in the paper can be downloaded through https://drive.google.com/file/d/1KUrCcR0Iulx2b_nPED4_lruEXlRZsuNW/view?usp=sharing.
 
 ## Prerequisites and Installation
 
