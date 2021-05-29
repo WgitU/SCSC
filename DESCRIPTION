@@ -1,0 +1,19 @@
+Package: SCSC
+Type: Package
+Title: Simultaneous subject and cell clustering for single cell
+        expression count data
+Version: 0.99.5
+Date: 2021-3-1
+Author: Qiuyu Wu,
+ Xiangyu Luo
+Maintainer: Qiuyu Wu <w.qy@ruc.edu.cn>
+Description: The advent of the single cell sequencing era opens new avenues for the personalized treatment, which makes it important to discover the subject heterogeneity at the single cell resolution. The R package SCSCwin, which is designed for the Windows operating system, implements a method named SCSC for simultaneous subject subgroup discovery and cell type detection based on the scRNA-seq data from multiple subjects. SCSC is a solid nonparametric Bayesian model, hence it does not need to prespecify the subject subgroup number or the cell type number. Moreover, SCSC automatically induces subject subgroup structures and matches cell types across subjects, and directly models the scRNA-seq raw count data by deliberately considering the data's dropouts, library sizes, and over-dispersion. Package SCSCwin employed a blocked Gibbs sampler to implement SCSC for Bayesian posterior inference.
+Depends: R (>= 3.6), stats
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.3), RcppArmadillo (>= 0.9.800.1)
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 7.1.1
+Encoding: UTF-8
+LazyData: true
+NeedsCompilation: yes
+Packaged: 2021-05-29 07:05:34 UTC; WU
